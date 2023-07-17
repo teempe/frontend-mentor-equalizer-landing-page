@@ -1,0 +1,24 @@
+:root {
+    --color-primary-1: #66E2DC;
+    --color-primary-2: #FA7453;
+    --color-primary-3: #FFB964;
+
+    --color-secondary-1: #FCFAF9;
+    --color-secondary-2: #FCFAF9;
+
+    --ff-base: 'IBM Plex Sans', sans-serif;
+
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
