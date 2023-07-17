@@ -19,6 +19,90 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 img {
     display: block;
+}
+
+
+h1, h2 {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.2em;
+    letter-spacing: -0.011em;
+}
+
+h2 {
+    font-size: 3.2rem;
+    line-height: 1.25em;
+}
+
+p {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+}
+
+p.body1 {
+    font-size: 1.6rem;
+    line-height: 1.625em;
+}
+
+p.body2 {
+    font-size: 1.8rem;
+    line-height: 1.556em;
+}
+
+p.body3 {
+    font-size: 1.6rem;
+    line-height: 1.625em;
+}
+
+.btn-txt {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+    font-size: 1.8px;
+    line-height: 1.778em;
+    letter-spacing: -0.01em;
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48em) {
+    h1 {
+        font-size: 6.4rem;
+        line-height: 1em;
+    }
+            
+    p.body1 {
+        font-size: 1.8rem;
+        line-height: 1.556em;
+    }
+}
+
+/* Desktop - 1440px */
+@media only screen and (min-width: 90em) {
+    h1 {
+        font-size: 8.8rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+        line-height: 1.3em;
+    }
+
+    p.body1 {
+        font-size: 2rem;
+        line-height: 1.7em;
+    }
+    
+    p.body2 {
+        font-size: 3.4rem;
+        line-height: 1.7em;
+    }
 }
