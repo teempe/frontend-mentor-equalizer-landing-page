@@ -1,0 +1,50 @@
+.container-footer-padding {
+    padding: 0 2.4rem 7.2rem 2.4rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-areas: 
+        "logo"
+        "text"
+        "social";
+
+    width: 100%;
+}
+
+.footer-logo {
+    grid-area: logo;
+    margin-bottom: 3.2rem;
+}
+
+.footer-text {
+    grid-area: text;
+    white-space: pre-line;
+    margin-bottom: 6.4rem;
+}
+
+.footer-text > a {
+    text-decoration: none;
+    font-weight: var(--fw-bold);
+    color: inherit;
+}
+
+.social-links {
+    grid-area: social;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.social-link:link,
+.social-link:visited {
+    font-size: 2.3em;
+    color: var(--color-secondary-2);
+    transition: color 0.25s;
+}
+
+.social-link:hover,
+.social-link:active {
+    cursor: pointer;
+    color: var(--color-primary-2);
+}

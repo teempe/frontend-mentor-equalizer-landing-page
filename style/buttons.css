@@ -1,0 +1,60 @@
+.btn-txt {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-bold);
+    font-size: 1.8rem;
+    line-height: 1.778em;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    padding: 1.5rem 0 1.4rem;
+    border-radius: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.btn:link,
+.btn:visited {
+    transition: background-color 0.25s ease-out;
+}
+
+.btn-ios:link,
+.btn-ios:visited {
+    background-color: var(--color-secondary-2);
+    color: var(--color-secondary-1);
+}
+
+.btn-ios::before {
+    content: "";
+    background-image: url("../assets/icon-apple.svg");
+    width: 18px;
+    height: 20px;
+}
+
+.btn-ios:hover,
+.btn-ios:active {
+    background-color: var(--color-primary-1);
+}
+
+.btn-android:link,
+.btn-android:visited {
+    background-color: var(--color-secondary-1);
+    color: var(--color-secondary-2);
+}
+
+.btn-android::before {
+    content: "";
+    background-image: url("../assets/icon-android.svg");
+    width: 18px;
+    height: 20px;
+}
+
+.btn-android:hover,
+.btn-android:active {
+    background-color: var(--color-primary-3);
+}
