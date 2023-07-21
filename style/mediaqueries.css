@@ -1,0 +1,190 @@
+/* Tablet - 768px */
+@media only screen and (min-width: 48em) {
+    /* general */
+    body {
+        background: 
+            no-repeat top -3.2rem right -3.6rem / 26.7rem 40rem url("../assets/bg-pattern-1.svg"),
+            no-repeat top -24.3rem right -10rem url("../assets/bg-main-tablet.png");
+    }
+
+    h1 {
+        font-size: 6.4rem;
+        line-height: 1em;
+    }
+            
+    p.body1 {
+        font-size: 1.8rem;
+        line-height: 1.556em;
+    }
+
+    .container {
+        max-width: 76.8rem;
+    }
+
+    /* header */
+    .container-heading-padding {
+        padding: 6.1rem 21.5rem 24.9rem 3.9rem;
+    }
+
+    .header-logo {
+        margin-bottom: 9.5rem;
+    }
+    
+    .header-main-heading {
+        margin-bottom: 2.8rem;
+    }
+
+    /* premium card */
+    .premium-card {
+        max-width: 39.9rem;
+        padding: 4.8rem;
+    }
+
+    /* main */
+    .container-main-padding {
+        padding: 0 3.9rem 18.3rem 3.3rem;
+    }
+
+    .main-content-bg {
+        background-position: left 22.9rem top -3.1rem;
+    }
+
+    .illustration-img {
+        width: 27rem;
+        height: 55.6rem;
+
+        left: 6.4rem;
+        top: -13.8rem;
+    }
+
+    .premium-card {
+        right: 5.8rem;
+        bottom: -9.6rem;
+    }
+
+    /* footer */
+    .container-footer-padding {
+        padding: 0 3.9rem 8.5rem 3.3rem;
+    }
+
+    .footer-content {
+        grid-template-areas: 
+            "logo ."
+            "text social";
+
+        grid-template-columns: 36.6rem 33rem;
+    }
+
+    .footer-text {
+        margin-bottom: 0;
+    }
+
+    .social-links {
+        justify-self: end;
+        align-self: center;
+    }
+}
+
+/* Desktop - 1440px */
+@media only screen and (min-width: 90em) {
+    /* general */
+    body {
+        background: 
+            no-repeat top -4rem right 0rem url("../assets/bg-pattern-1.svg"),
+            no-repeat top -24.3rem right -15.7rem url("../assets/bg-main-desktop.png");
+    }
+
+    h1 {
+        font-size: 8.8rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+        line-height: 1.3em;
+    }
+
+    p.body1 {
+        font-size: 2rem;
+        line-height: 1.7em;
+    }
+    
+    p.body2 {
+        font-size: 2rem;
+        line-height: 1.7em;
+    }
+
+    .container {
+        max-width: 144rem;
+    }
+
+    /* header */
+    .container-heading-padding {
+        padding: 6.1rem 41rem 32.1rem 16.5rem;
+    }
+
+    .header-logo {
+        margin-bottom: 12.7rem;
+    }
+    
+    .header-main-heading {
+        margin-bottom: 4rem;
+    }
+
+    /* premium card */
+    .premium-card {
+        max-width: 44.6rem;
+        padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+    }
+
+    .card-heading {
+        margin-bottom: 2.2rem;
+    }
+
+    .card-text {
+        margin-bottom: 3.9rem;
+    }
+
+    .card-price-container {
+        margin-bottom: 4.6rem;
+        padding-left: 0;
+    }
+
+    .card-btns-container {
+        padding-left: 0;
+    }
+
+    /* main */
+    .container-main-padding {
+        padding: 0 16.5rem 20.2rem 16.5rem;
+    }
+
+    .main-content-bg {
+        background-size: 31.2rem;
+        background-position: left 33.6rem top -4rem;
+    }
+
+    .illustration-img {
+        width: 31.2rem;
+        height: 64.2rem;
+
+        left: 10.2rem;
+        top: -21.3rem;
+    }
+
+    .premium-card {
+        right: 9.5rem;
+        bottom: -11.5rem;
+    }
+
+    /* footer */
+    .container-footer-padding {
+        padding: 0 16.5rem 9.2rem 16.6rem;
+    }
+
+    .footer-content {
+        grid-template-areas: 
+            "logo text social";
+
+        grid-template-columns: 28.5rem 36.6rem 45.9rem;
+    }
+}
